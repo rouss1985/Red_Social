@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetsLovers</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav>
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <span class="badge secondary"><i class="fa fa-user size" aria-hidden="true"></i></span>
+            <span class="badge success"><i class="fa fa-bell size" aria-hidden="true"></i></span>
+            <span class="badge warning"><i class="fa fa-cog size" aria-hidden="true"></i></span>
+        </div>
+          <div class="top-bar-right">
+            <ul class="menu">
+              <li><input type="search" placeholder="Search"></li>
+              <li><button type="button" class="button">Search</button></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="separador"></div>
+    <div class="row">
+        <div class=" small-12 medium-8 columns ">
+            <div class="small-12">
+
+                <div class="row no-padding">
+                    <div class="small-2 columns">
+                        <img class="PaT" src="./assets/img/perfil.png" alt="">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                    </div>
+                    <div class="small-10 columns">
+                        <div class="portada">
+                          <img class="hoverP" src="./assets/img/fotoPortada.jpg" alt="">
+                          <i class="fa fa-camera" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="small-12 columns">
+                  <div class="row">
+                      <div class="small-12 medium-1 columns">&nbsp;</div>
+                      <div class="MarT" class="small-12 medium-10 columns">
+                            <label>
+                                <span class="black">Comparte algo..</span>
+                                <textarea placeholder="" id="historia"></textarea>
+                            </label>
+                            <div class="row">
+                                <div class="small-6 columns">
+                                    <div id="body-overlay"><div><img src="loading.gif" width="64px" height="64px"/></div></div>
+                                    <div class="bgColor">
+                                    	<form id="uploadForm" action="upload.php" method="POST" enctype="multipart/form-data">
+                                    		<div id="targetOuter">
+                                    			<div id="targetLayer"></div>
+
+                                    			<div class="icon-choose-image" >
+                                    			<input name="userImage" id="userImage" type="file" class="inputFile" onChange="showPreview(this);" />
+                                    			</div>
+                                    		</div>
+                                    		<div>
+                                    			<input type="submit" value="Upload Photo" class="btnSubmit" />
+                                    		</div>
+                                    	</form>
+                                    </div>
+                                </div>
+                                <div class="small-6 columns">
+                                    <input type="hidden" name="imgurl" value="" id="imgurl">
+                                    <button type="button" class="success button" class="black" id="guardar">Postear</button>
+                                </div>
+                            </div>
+
+                      </div>
+                  </div>
+            </div>
+            <div class="container">
+
+            </div>
+        </div>
+        <div class="small-12 medium-4 columns">
+            <div class="menu small-12 columns">
+                <ul class="vertical dropdown menu menusito" data-dropdown-menu >
+                  <li class="black">
+                    <a class="black" href="#">Asistencia Veterinaria</a>
+                    <ul class="vertical menu nested">
+                      <li class="black"><a id="black" href="#">A domicilio</a></li>
+                      <li class="black"><a id="black" href="#">Chat</a></li>
+                      <!-- ... -->
+                    </ul>
+                  </li>
+                  <li class="black"><a class="black" href="adiestramiento.html">Adiestramiento</a></li>
+                  <li class="black"><a class="black" href="hospedaje.html">Hospedaje</a></li>
+                  <li class="black"><a class="black" href="#">Eventos</a></li>
+                  <li class="black"><a class="black" href="#">Chat</a></li>
+                  <li class="black"><a class="black" href="marketplace.html">Marketplace</a></li>
+                  <li class="black">
+                    <a classs="black" href="#">Intereses</a>
+                    <ul class="vertical menu nested">
+                      <li class="black"><a class="black" href="#">Busqueda de mascotas</a></li>
+                      <li class="black"><a class="black" href="#">Adopción</a></li>
+                      <!-- ... -->
+                    </ul>
+                  </li>
+                  <li class="black"><a class="black" href="#">Intereses</a></li>
+                  <li class="black"><a class="black" href="#">Foro</a></li
+                  <!-- ... -->
+                </ul>
+            </div>
+            <div class="separador2"></div>
+            <div class="amigos small-12 columns">
+                  <h2 class="blue"><i class="fa fa-users efect1" aria-hidden="true"></i>Amigos</h2>
+                  <img class="efects" src="./assets/img/amigos.jpg" alt="">
+            </div>
+            <div class="small-12 columns">
+                <h4 class="blue">Te podría interesar</h4>
+            </div>
+            <div class="amigos small-12 columns">
+                <img class="efects" src="./assets/img/banner2.jpg" alt="">
+                <br><br>
+                <img class="efects" src="./assets/img/eventoCanino.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

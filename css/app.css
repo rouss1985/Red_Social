@@ -1,0 +1,188 @@
+body {
+    background-image: url(../assets/img/fondo_patitas.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
+body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+a:hover, a:focus {
+    color: #fff;
+}
+.row {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+}
+
+.container {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+.timeline-item {
+    padding: 30px 15px 0px 15px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+}
+.incontent {
+    background: #eaeaea;
+    padding-bottom: 15px;
+    background: #add3f7;
+}
+.timeline-item p {
+  font-size: 1rem;
+}
+.timeline-item::before {
+  content: attr(date-is);
+  position: absolute;
+  left: 2em;
+  font-weight: bold;
+  top: 1em;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: .785rem;
+}
+.timeline-item::after {
+    right: 100%;
+    position: absolute;
+    top: 51px;
+    left: 0px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #ccc;
+}
+.timeline-item:last-child {
+  -o-border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
+     border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+
+
+
+/* Social actions */
+.actions ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding-top: 11px;
+}
+.actions ul li i:hover {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.actions ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px 0 5px;
+}
+
+
+/* uploader */
+.btnSubmit {
+    background-color: #565656;
+    border-radius: 4px;
+    padding: 10px;
+    border: #333 1px solid;
+    color: #FFFFFF;
+    width: 200px;
+	cursor:pointer;
+}
+.upload-preview {border-radius:4px;}
+#body-overlay {background-color: rgba(0, 0, 0, 0.6);z-index: 999;position: absolute;left: 0;top: 0;width: 100%;height: 100%;display: none;}
+#body-overlay div {position:absolute;left:50%;top:50%;margin-top:-32px;margin-left:-32px;}
+
+.posi{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+#guardar{
+  background: #6baed6;
+}
+ul.dropdown.menu {
+  background: #276fb2;
+  color: #111111;
+}
+.black{
+  color: black;
+  font-weight: bold;
+}
+a{
+  color: black;
+}
+.top-bar{
+  background: #276fb2;
+}
+.separador{
+    width: 100%;
+    height: 30px;
+    clear: both;
+}
+.menusito{
+    width: 100%;
+}
+img.thumbnail {
+    height: 250px;
+}
+img.ajuste{
+  width: 100%;
+  height: 100%;
+}
+.separador2{
+  margin-top: 15px;
+}
+.amigos{
+  margin-bottom: 10px;
+}
+.efects:hover{
+  opacity: 0.5;
+}
+.blue:hover{
+  color:blue;
+}
+.size{
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+}
+.size:hover{
+  color:blue;
+}
+.PaT{
+  padding-top: 50px;
+}
+.PaT:hover{
+  opacity: 0.7;
+}
+.MarT{
+  margin-top: 20px;
+}
+.hoverP:hover{
+  opacity:0.7;
+}
