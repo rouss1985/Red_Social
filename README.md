@@ -1,4 +1,4 @@
-Este es el link de la github pages: 
+Esta es la URL de la red social(está montada en un servidor):http://petlovers.devrobots.com.mx/
 
 Tecnologías utilizadas: AJAX, Jquery,Javascript,CSS, HTML, Framework Foundation, PHP.
 
