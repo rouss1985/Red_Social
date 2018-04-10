@@ -3,6 +3,7 @@ Titulo: Red social.
 Descripción del proyecto:Proyecto donde se desarrolló una red social con una temática específica.Proyecto donde se utiliza un localStorage de sus post de cada usuario. Cada post se realiza de manera asíncrona con AJAX y PHP. Este proyecto está montado sobre un servidor.
 
 Tecnologías utilizadas: AJAX, Jquery,Javascript,CSS, HTML, Framework Foundation, PHP.
+
 Para que empresa fué desarrollado: Laboratoria.
 
 
