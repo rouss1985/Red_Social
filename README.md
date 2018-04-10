@@ -1,6 +1,9 @@
-Esta es la URL de la red social(está montada en un servidor):http://petlovers.devrobots.com.mx/
+Titulo: Red social.
+Descripción del proyecto:Proyecto donde se desarrolló una red social con una temática específica.Proyecto donde se utiliza un localStorage de sus post de cada usuario. Cada post se realiza de manera asíncrona con AJAX y PHP. Este proyecto está montado sobre un servidor.
 
 Tecnologías utilizadas: AJAX, Jquery,Javascript,CSS, HTML, Framework Foundation, PHP.
+Para que empresa fué desarrollado: Laboratoria.
+
 
 Este ejercicio consiste en la creación de una red social con temática libre, y se decidió el tema de PetLovers
 debido a que encontramos diversas problemáticas sociales alrededor de las mascotas.
